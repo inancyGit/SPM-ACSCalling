@@ -15,6 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AzureCommunicationCalling",
+            dependencies: ["AzureCommunicationCommon"],
             url: "https://github.com/Azure/communication/releases/download/v2.2.0-beta.1/AzureCommunicationCalling-2.2.0-beta.1.zip"
         )
     ]
