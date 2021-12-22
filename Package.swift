@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "AzureCommunicationCalling",
     platforms: [
-        .iOS(.v12)
+        .macOS(.v11), .iOS(.v12)
     ],
     products: [
         .library(name: "AzureCommunicationCalling", targets: ["AzureCommunicationCallingWrapper"])
@@ -19,14 +19,10 @@ let package = Package(
             checksum: "3dfc0b9e1ae79e1d8df622f39b1c85db8998518d2c02eb1fe6b9ae58333c6de9"
         ),
         .target(
-            name: "AzureCommunicationCommon",
-            path: "AzureCommunicationCommon"
-        ),
-        .target(
             name: "AzureCommunicationCallingWrapper",
             dependencies: [
                 .target(name: "AzureCommunicationCalling"),
-                .target(name: "AzureCommunicationCommon")
+                .product(name: "AzureCommunicationCommon", package: "AzureCommunicationCommon")
             ],
             path: "AzureCommunicationCallingWrapper"
         )
