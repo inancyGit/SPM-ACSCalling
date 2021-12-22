@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "AzureCommunicationCalling", targets: ["AzureCommunicationCallingWrapper"])
     ],
     dependencies: [
-            .package(name: "AzureCommunicationCommon", url: "https://github.com/Azure/SwiftPM-AzureCommunicationCommon.git", from: "1.0.2")
+            .package(name: "AzureCommunicationCommon", url: "https://github.com/raosanat/SwiftPM-AzureCommunicationCommon.git", from: "1.0.2")
     ],
     targets: [
         .binaryTarget(
