@@ -23,8 +23,8 @@ let package = Package(
         .target(
             name: "AzureCommunicationCallingWrapper",
             dependencies: [
-                .target(name: "AzureCommunicationCalling", condition: .when(platforms: .some([.iOS]))),
-                .target(name: "AzureCommunicationCommon",  condition: .when(platforms: .some([.iOS])))
+                .target(name: "AzureCommunicationCalling"),
+                .target(name: "AzureCommunicationCommon")
             ],
             path: "AzureCommunicationCallingWrapper"
         )
