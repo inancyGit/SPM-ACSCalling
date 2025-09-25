@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-@available(iOS 14.0, *)
+@available(macOS 11.0, *)
+@available(iOS 13.0, *)
 @main
 struct AzureCommunicationCallingWrapperApp: App {
     var body: some Scene {
