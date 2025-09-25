@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "AzureCommunicationCalling", targets: ["AzureCommunicationCallingWrapper"])
     ],
     dependencies: [
-            .package(name: "SPMCommon", url: "https://github.com/inancyGit/SPMCommon.git", from: "v1.0.0")
+            .package(name: "SPMCommon", url: "https://github.com/inancyGit/SPMCommon.git", from: "1.0.0")
     ],
     targets: [
         .binaryTarget(
@@ -22,7 +22,7 @@ let package = Package(
             name: "AzureCommunicationCallingWrapper",
             dependencies: [
                 .target(name: "AzureCommunicationCalling"),
-                .product(name: "AzureCommunicationCommon", package: "AzureCommunicationCommon")
+                .product(name: "AzureCommunicationCommon", package: "SPMCommon")
             ],
             path: "AzureCommunicationCallingWrapper"
         )
