@@ -4,18 +4,18 @@ import PackageDescription
 let package = Package(
     name: "AzureCommunicationCalling",
     platforms: [
-        .macOS(.v11), .iOS(.v12)
+        .iOS(.v12)
     ],
     products: [
         .library(name: "AzureCommunicationCalling", targets: ["AzureCommunicationCallingWrapper"])
     ],
     dependencies: [
-            .package(name: "AzureCommunicationCommon", url: "https://github.com/raosanat/SwiftPM-AzureCommunicationCommon.git", from: "1.0.2")
+            .package(name: "SPMCommon", url: "https://github.com/inancyGit/SPMCommon.git", from: "v1.0.0")
     ],
     targets: [
         .binaryTarget(
             name: "AzureCommunicationCalling",
-            url: "https://github.com/Azure/communication/releases/download/v2.2.0-beta.1/AzureCommunicationCalling-2.2.0-beta.1.zip",
+            url: "https://github.com/Azure/Communication/releases/download/v2.16.0/AzureCommunicationCalling-2.16.0.zip",
             checksum: "3dfc0b9e1ae79e1d8df622f39b1c85db8998518d2c02eb1fe6b9ae58333c6de9"
         ),
         .target(
