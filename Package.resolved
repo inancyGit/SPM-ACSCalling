@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "SwiftPM-AzureCommunicationCommon",
-        "repositoryURL": "https://github.com/raosanat/SwiftPM-AzureCommunicationCommon.git",
+        "package": "SPMCommon",
+        "repositoryURL": "https://github.com/inancyGit/SPMCommon.git",
         "state": {
           "branch": null,
-          "revision": "fe07546bd9e12b54154dfc075c4bdb626326b224",
-          "version": "1.0.2"
+          "revision": "ead909b1f9e1255b1083eaa11cea798ce14732f7",
+          "version": "1.0.0"
         }
       }
     ]
