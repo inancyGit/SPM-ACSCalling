@@ -1,13 +1,13 @@
 {
-  "originHash" : "a8f8392f625c6f544cbc4689a815893d290a8ebc23567a52521c985e20cc6cf3",
+  "originHash" : "9a9542962ff493f52044acc2b6e8b6e8875a09ddc437acce1b1dab3111040457",
   "pins" : [
     {
-      "identity" : "spmcommon",
+      "identity" : "acscommon",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/inancyGit/SPMCommon.git",
+      "location" : "https://github.com/inancyGit/ACSCommon.git",
       "state" : {
-        "revision" : "ead909b1f9e1255b1083eaa11cea798ce14732f7",
-        "version" : "1.0.0"
+        "branch" : "main",
+        "revision" : "e4b2a964ab0dea6414be17522332ceebc0148258"
       }
     }
   ],
