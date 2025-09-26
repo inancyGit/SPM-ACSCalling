@@ -30,7 +30,7 @@ let package = Package(
             dependencies: [
                 "AzureCommunicationCalling",
                 // IMPORTANT: replace "SPMCommon" below if the actual product/module name differs
-                .product(name: "AzureCommunicationCommon", package: "spmcommon")
+                .product(name: "AzureCommunicationCommon", package: "AzureCommunicationCommon")
             ],
             path: "Source/AzureCommunicationCallingWrapper"
         )
