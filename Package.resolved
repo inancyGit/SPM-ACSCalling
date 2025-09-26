@@ -1,16 +1,15 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "SPMCommon",
-        "repositoryURL": "https://github.com/inancyGit/SPMCommon.git",
-        "state": {
-          "branch": null,
-          "revision": "ead909b1f9e1255b1083eaa11cea798ce14732f7",
-          "version": "1.0.0"
-        }
+  "originHash" : "a8f8392f625c6f544cbc4689a815893d290a8ebc23567a52521c985e20cc6cf3",
+  "pins" : [
+    {
+      "identity" : "spmcommon",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/inancyGit/SPMCommon.git",
+      "state" : {
+        "revision" : "ead909b1f9e1255b1083eaa11cea798ce14732f7",
+        "version" : "1.0.0"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 3
 }
