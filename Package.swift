@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         // Your Git dependency
-        .package(url: "https://github.com/inancyGit/SPMCommon.git", from: "1.0.0")
+        .package(name: "AzureCommunicationCommon", url: "https://github.com/inancyGit/SPMCommon.git", from: "1.0.0")
     ],
     targets: [
         // 1) Binary target for the .zip
@@ -30,7 +30,7 @@ let package = Package(
             dependencies: [
                 "AzureCommunicationCalling",
                 // IMPORTANT: replace "SPMCommon" below if the actual product/module name differs
-                .product(name: "AzureCommunicationCommon", package: "SPMCommon")
+                .product(name: "AzureCommunicationCommon", package: "AzureCommunicationCommon")
             ],
             path: "Source/AzureCommunicationCallingWrapper"
         )
