@@ -1,0 +1,15 @@
+{
+  "originHash" : "2d41475033cad8e771de8eda23cba3065afe116f8a5e2a2842e31420159c53b4",
+  "pins" : [
+    {
+      "identity" : "spm-acscalling",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/inancyGit/SPM-ACSCalling.git",
+      "state" : {
+        "revision" : "f047f230aedfd7a89d3aa93cf5e4b8818494a95c",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
