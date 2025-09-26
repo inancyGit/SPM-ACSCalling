@@ -6,10 +6,6 @@
 	objectVersion = 54;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A74F323E2E864BE0004720BB /* AzureCommunicationCalling in Frameworks */ = {isa = PBXBuildFile; productRef = A74F323D2E864BE0004720BB /* AzureCommunicationCalling */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		0ACE96E926277AC600CD5707 /* AzureCommunicationCalling.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AzureCommunicationCalling.podspec.json; sourceTree = "<group>"; };
 		0ACE96EB26277B3A00CD5707 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -24,7 +20,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74F323E2E864BE0004720BB /* AzureCommunicationCalling in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +109,6 @@
 			);
 			mainGroup = 0ACE96D226277A9300CD5707;
 			packageReferences = (
-				A74F323C2E864BE0004720BB /* XCRemoteSwiftPackageReference "SPM-ACSCalling" */,
 			);
 			productRefGroup = 0ACE96D226277A9300CD5707;
 			projectDirPath = "";
@@ -350,25 +344,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A74F323C2E864BE0004720BB /* XCRemoteSwiftPackageReference "SPM-ACSCalling" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/inancyGit/SPM-ACSCalling.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A74F323D2E864BE0004720BB /* AzureCommunicationCalling */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A74F323C2E864BE0004720BB /* XCRemoteSwiftPackageReference "SPM-ACSCalling" */;
-			productName = AzureCommunicationCalling;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0ACE96D326277A9300CD5707 /* Project object */;
 }
