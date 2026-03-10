@@ -21,8 +21,8 @@ let package = Package(
         // 1) Binary target for the .zip
         .binaryTarget(
             name: "AzureCommunicationCalling",
-            url: "https://github.com/Azure/Communication/releases/download/v2.16.0/AzureCommunicationCalling-2.16.0.zip",
-            checksum: "30706c67938ee54d788aac1f66f4278ff53defb0beea6c9fc7c7567e2027af61"
+            url: "https://github.com/inancyGit/SPM-ACSCalling/releases/download/2.0.1/AzureCommunicationCalling-2.18.2-beta.2.zip",
+            checksum: "96b0faec320b9d6f3730826ad4d7de5933a275a2cbd27cfa27d6913003ea5c85"
         ),
         // 2) Buildable Swift target that depends on the binary + ACSCommon
         .target(
